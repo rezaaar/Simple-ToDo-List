@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 53;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,9 @@
 		B14D325528A6DCA100F0893A /* sololearnTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14D325428A6DCA100F0893A /* sololearnTests.swift */; };
 		B14D325F28A6DCA100F0893A /* sololearnUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14D325E28A6DCA100F0893A /* sololearnUITests.swift */; };
 		B14D326128A6DCA100F0893A /* sololearnUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14D326028A6DCA100F0893A /* sololearnUITestsLaunchTests.swift */; };
+		B14D326E28A770C000F0893A /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14D326D28A770C000F0893A /* ItemTableViewCell.swift */; };
+		B14D327028A7725300F0893A /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14D326F28A7725300F0893A /* Item.swift */; };
+		B14D327428A7771900F0893A /* ItemTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14D327328A7771900F0893A /* ItemTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		B14D325A28A6DCA100F0893A /* sololearnUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sololearnUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B14D325E28A6DCA100F0893A /* sololearnUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sololearnUITests.swift; sourceTree = "<group>"; };
 		B14D326028A6DCA100F0893A /* sololearnUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sololearnUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B14D326D28A770C000F0893A /* ItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
+		B14D326F28A7725300F0893A /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		B14D327328A7771900F0893A /* ItemTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 				B14D323F28A6DC9F00F0893A /* SceneDelegate.swift */,
 				B14D324128A6DC9F00F0893A /* ViewController.swift */,
 				B14D324328A6DC9F00F0893A /* Main.storyboard */,
+				B14D327328A7771900F0893A /* ItemTableViewController.swift */,
+				B14D326F28A7725300F0893A /* Item.swift */,
+				B14D326D28A770C000F0893A /* ItemTableViewCell.swift */,
 				B14D324628A6DCA100F0893A /* Assets.xcassets */,
 				B14D324828A6DCA100F0893A /* LaunchScreen.storyboard */,
 				B14D324B28A6DCA100F0893A /* Info.plist */,
@@ -207,7 +216,7 @@
 				};
 			};
 			buildConfigurationList = B14D323528A6DC9F00F0893A /* Build configuration list for PBXProject "sololearn" */;
-			compatibilityVersion = "Xcode 13.0";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -258,8 +267,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B14D327028A7725300F0893A /* Item.swift in Sources */,
+				B14D326E28A770C000F0893A /* ItemTableViewCell.swift in Sources */,
 				B14D324228A6DC9F00F0893A /* ViewController.swift in Sources */,
 				B14D323E28A6DC9F00F0893A /* AppDelegate.swift in Sources */,
+				B14D327428A7771900F0893A /* ItemTableViewController.swift in Sources */,
 				B14D324028A6DC9F00F0893A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
